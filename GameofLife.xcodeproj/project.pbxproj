@@ -17,6 +17,9 @@
 		C80D8D161F0EB76700DFAA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80D8D141F0EB76700DFAA8A /* LaunchScreen.storyboard */; };
 		C80D8D211F0EB76700DFAA8A /* GameofLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8D201F0EB76700DFAA8A /* GameofLifeTests.swift */; };
 		C80D8D2C1F0EB76700DFAA8A /* GameofLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8D2B1F0EB76700DFAA8A /* GameofLifeUITests.swift */; };
+		C80D8D3A1F0EB7A900DFAA8A /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8D391F0EB7A900DFAA8A /* MSButtonNode.swift */; };
+		C80D8D3C1F0EBC7800DFAA8A /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8D3B1F0EBC7800DFAA8A /* Grid.swift */; };
+		C80D8D3E1F0EBD3100DFAA8A /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80D8D3D1F0EBD3100DFAA8A /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		C80D8D271F0EB76700DFAA8A /* GameofLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameofLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80D8D2B1F0EB76700DFAA8A /* GameofLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameofLifeUITests.swift; sourceTree = "<group>"; };
 		C80D8D2D1F0EB76700DFAA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80D8D391F0EB7A900DFAA8A /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		C80D8D3B1F0EBC7800DFAA8A /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		C80D8D3D1F0EBD3100DFAA8A /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,11 @@
 			children = (
 				C80D8D051F0EB76700DFAA8A /* AppDelegate.swift */,
 				C80D8D071F0EB76700DFAA8A /* GameScene.sks */,
+				C80D8D3B1F0EBC7800DFAA8A /* Grid.swift */,
+				C80D8D3D1F0EBD3100DFAA8A /* Creature.swift */,
 				C80D8D091F0EB76700DFAA8A /* Actions.sks */,
 				C80D8D0B1F0EB76700DFAA8A /* GameScene.swift */,
+				C80D8D391F0EB7A900DFAA8A /* MSButtonNode.swift */,
 				C80D8D0D1F0EB76700DFAA8A /* GameViewController.swift */,
 				C80D8D0F1F0EB76700DFAA8A /* Main.storyboard */,
 				C80D8D121F0EB76700DFAA8A /* Assets.xcassets */,
@@ -202,6 +211,7 @@
 				TargetAttributes = {
 					C80D8D011F0EB76600DFAA8A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GL7748R9AC;
 						ProvisioningStyle = Automatic;
 					};
 					C80D8D1B1F0EB76700DFAA8A = {
@@ -272,7 +282,10 @@
 			files = (
 				C80D8D0C1F0EB76700DFAA8A /* GameScene.swift in Sources */,
 				C80D8D0E1F0EB76700DFAA8A /* GameViewController.swift in Sources */,
+				C80D8D3E1F0EBD3100DFAA8A /* Creature.swift in Sources */,
 				C80D8D061F0EB76700DFAA8A /* AppDelegate.swift in Sources */,
+				C80D8D3C1F0EBC7800DFAA8A /* Grid.swift in Sources */,
+				C80D8D3A1F0EB7A900DFAA8A /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GL7748R9AC;
 				INFOPLIST_FILE = GameofLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Make-School.GameofLife";
@@ -436,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GL7748R9AC;
 				INFOPLIST_FILE = GameofLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Make-School.GameofLife";
